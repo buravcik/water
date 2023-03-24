@@ -1,0 +1,286 @@
+.fon{
+    background-image: url(img/ODk4NzgwODQ4.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Tilt Warp', cursive;
+    flex-wrap: wrap;
+    background-color: rgb(56, 85, 246);
+    display: flex;
+    box-sizing: border-box;
+    max-width: 1250px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+}
+
+.taitl{
+    text-align: center;
+    font-family: 'Tilt Warp', cursive;
+    max-width: 911px;
+    width: 100%;
+    margin: 0 auto;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    font-size: 34px;
+    color:rgb(232, 227, 227);
+}
+
+.spehl{
+    text-align: center;
+    font-family: 'Tilt Warp', cursive;
+    flex-wrap: wrap;
+    font-size: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    position:fixed; top:65%; left: 30%;  
+    background-color: rgb(147, 238, 244);
+    border-radius: 10px;
+    opacity:0.8
+
+}
+
+
+.phon{
+    text-align: center;
+    font-family: 'Tilt Warp', cursive;
+    flex-wrap: wrap;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position:fixed; top:30%; left: 60%;  
+    background-color: rgb(147, 238, 244);
+    border-radius: 10px;
+    opacity:0.8
+}
+
+.pruis{
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: 'Tilt Warp', cursive;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position:fixed; top:40%; left: 5%;  
+    background-color: rgb(147, 238, 244);
+    border-radius: 10px;
+    opacity:0.8
+}
+
+.call{  
+    font-family: 'Tilt Warp', cursive;
+    text-align: center;  
+    flex-wrap: wrap;
+    font-size: 30px;
+}
+
+nav {
+    font-family: 'Tilt Warp', cursive;
+    text-align: center;
+    flex-wrap: wrap;
+    inline-size: auto;
+    max-width: 911px;
+    max-width: 100%;
+    margin: 35% auto;
+    font-size: 20px;
+    background-color: rgb(147, 238, 244);
+    border-radius: 10px;
+    opacity:0.8
+    
+}
+
+.class-photo{  
+    font-family: 'Tilt Warp', cursive;
+    flex-wrap: wrap;
+    display: block;
+    margin-left: 30%;
+    margin-right: 50%;
+    position: relative;
+    position: absolute;
+    top: 140%;
+    flex-wrap: wrap;
+}
+
+.job{
+    font-family: 'Tilt Warp', cursive;
+    flex-wrap: wrap;
+    width: 200px; 
+    height: 200px;
+    position:fixed; top:10%; left: 10%;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    nav {
+        max-width: 80%;
+        margin: 47% auto;
+        font-size: 20px; 
+    }
+    .spehl{
+        font-size: 10px;
+        position:fixed; top:65%; left: 30%;  
+    }
+    
+
+}
+@media (max-width: 425px) {
+    nav {
+        max-width: 80%;
+        margin: 80% auto;
+        font-size: 15px;
+    }
+    .spehl{
+        font-size: 10px;
+        position:fixed; top:60%; left: 30%;  
+    }
+    .job{
+        font-family: 'Tilt Warp', cursive;
+        flex-wrap: wrap;
+        width: 100px; 
+        height: 100px;
+        position:fixed; top:25%; left: 2%;
+    }
+    .pruis{
+        text-align: center;
+        flex-wrap: wrap;
+        font-family: 'Tilt Warp', cursive;
+        font-size: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        position:fixed; top:40%; left: 5%;  
+        background-color: rgb(147, 238, 244);
+        border-radius: 10px;
+        opacity:0.8
+    }
+    .call{  
+        font-family: 'Tilt Warp', cursive;
+        text-align: center;  
+        flex-wrap: wrap;
+        font-size: 20px;
+    }
+    .phon{
+        text-align: center;
+        font-family: 'Tilt Warp', cursive;
+        flex-wrap: wrap;
+        font-size: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        position:fixed; top:30%; left: 60%;  
+        background-color: rgb(147, 238, 244);
+        border-radius: 10px;
+        opacity:0.8
+    }
+
+}
+@media (max-width: 375px) {
+    .taitl{
+
+   
+    font-size: 20px;
+  
+}
+    nav {
+    
+        max-width: 80%;
+        margin: 120% auto;
+        font-size: 10px;
+   
+        
+    }
+    .spehl{
+        font-size: 10px;
+        position:fixed; top:65%; left: 30%;  
+    }
+    .job{
+     
+        position:fixed; top:15%; left: 2%;
+    }
+    .pruis{
+        font-size: 20px;
+        position:fixed; top:40%; left: 5%;  
+  
+    }
+    .call{  
+        font-size: 20px;
+    }
+    .phon{
+        font-size: 10px;
+        position:fixed; top:30%; left: 60%;  
+      
+    }
+    .pruis{
+        font-size: 10px;
+        position:fixed; top:40%; left: 5%;  
+    }
+
+}
+
+@media (max-width: 320px){
+    .spehl{
+        font-size: 10px;
+        position:fixed; top:50%; left: 30%;  
+    }
+    nav {
+       max-width: 80%;
+       margin: 120% auto;
+       font-size: 10px;   
+    }
+    .call{  
+      font-size: 15px;
+    }
+    .phon{
+      font-size: 10px;
+    
+}
+}
+
+@media (max-width: 375px) {
+    nav {
+        max-width: 80%;
+        margin: 150% auto;
+        font-size: 20px; 
+    }
+    .spehl{
+        font-size: 10px;
+        position:fixed; top:65%; left: 30%;  
+    }
+}
+
+@media (max-width: 414px) {
+    nav {
+        max-width: 80%;
+        margin: 170% auto;
+        font-size: 20px; 
+    }
+    .spehl{
+        font-size: 10px;
+        position:fixed; top:65%; left: 30%;  
+    }
+}
+
